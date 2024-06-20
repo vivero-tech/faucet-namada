@@ -1,0 +1,149 @@
+
+.ModalContainer{
+  z-index: 300;
+  top: 30%;
+  right: 35%;
+  position: fixed;
+    border-radius: 10px;
+    height: 320px;
+    width: 470px;
+
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#2f2727), to(black));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.396), 0 6px 20px 0 rgba(0, 0, 0, 0.67);
+  }
+  .modalMessage{
+    z-index: 600;
+    margin-top: 90px;
+      width: 400px;
+      margin-right: 0px;
+      font-weight: bold;
+      color: goldenrod;
+    margin-left: 30px;
+      letter-spacing: 1px;
+      font-size: 16px;
+  }
+
+.ref{
+  position: absolute;
+  right: 20%;
+  text-align: center;
+}
+.text{
+
+  color: white;
+  text-align: center;
+}
+.TwitSt , .Twit{
+  padding: 8px 32px;
+  text-align: center;
+  background-color: rgba(21, 21, 20, 0.658) !important;
+  border-radius: 20px;
+  color: rgb(253, 249, 249);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 5px;
+  margin-left: 30px;
+
+ height: 50px;
+ width: 400px;
+}
+.modalButtons{
+ margin-top: 50px;
+
+}
+  
+  .closeButton{
+   text-align:justify;
+      position: fixed;
+      background-color: rgba(255, 217, 0, 0.658) !important;
+      border-radius: 5px;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      display: inline-block;
+      font-size: 40px;
+      margin-top: 30px;
+      margin-left: 340px;
+      cursor: pointer;
+      width: 40px;
+      transition-duration: 0.4s;
+      right: 38%;
+      height: 40px;
+  }
+  
+  
+  .Modal{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(226, 216, 216, 0.137);
+  font-size: 21px;
+  }
+
+
+
+  .modal-overlay {
+    position: fixed; /* Фиксированное позиционирование относительно вьюпорта */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Высокий z-index для отображения поверх других элементов */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1001; 
+  }
+  
+
+
+
+
+
+
+
+  /* ======== x ============= */
+
+  .cross {
+    position: relative;
+    width: 40px; 
+    height: 40px; 
+  }
+
+  .cross::before, .cross::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px; 
+    height: 100%; 
+    background-color: black; 
+  }
+
+  .cross::before {
+    transform: rotate(45deg); 
+  }
+
+  .cross::after {
+    transform: rotate(-45deg); 
+  }
+
+
+

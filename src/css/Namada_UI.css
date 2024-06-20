@@ -1,0 +1,121 @@
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    border-radius: 10px;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#2f2727), to(black));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.396), 0 6px 20px 0 rgba(0, 0, 0, 0.67);
+  }
+
+  .frame {
+    margin-top: 0;
+    background: rgb(64, 54, 54);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #ffffff;
+    max-width: 800px;
+    max-height: 475px;
+  }
+  .title-section {
+    margin-bottom: 20px;
+  }
+  
+  .title-app {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  
+  .faucet-container {
+    background: #09090979;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .alert {
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .alert-info {
+    background-color: #e5eeef;
+  }
+  
+  .alert-error {
+    background-color: #8b1823;
+  }
+
+
+
+   h1 {
+  
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #bbb;
+  }
+  h1 span {
+    border: 2px solid #dfdfdf;
+    padding: 3px 2px 3px 7px;
+    border-radius: 6px;
+    font-weight: 400;
+  }
+  
+  p {
+    width: 320px;
+    margin-right: 100px;
+    font-weight: bold;
+    color: goldenrod;
+  margin-left: 10px;
+    letter-spacing: 1px;
+  }
+
+  
+  .tags-input span {
+    background: #bbb;
+    margin-right: 7px;
+    color: #fff;
+    padding: 4px 7px;
+    border-radius: 20px;
+  }
+  .tags-input span[data-selected] {
+    background: #f4f6f6;
+  }
+  .tags-input::after {
+    content: "";
+    background: #888;
+    width: 1px;
+    height: 19px;
+    margin: -1px 0 0 -1px;
+    display: none;
+    -webkit-animation: blink 0.5s infinite alternate;
+            animation: blink 0.5s infinite alternate;
+  }
+  .tags-input1:focus {
+    border-color: #494949;
+    outline: none;
+  }
+  .tags-input1:focus[data-cursor]::after {
+    display: block;
+  }
+  
+  
+
+
